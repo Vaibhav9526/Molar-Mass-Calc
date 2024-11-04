@@ -234,10 +234,10 @@ function displayResult(atoms, mass) {
   console.log(mass);
   let resultContainer = document.getElementById("result");
   resultContainer.innerHTML = `${mass} g/mol`;
-  let atomsstr = "<br>Found:";
-  atoms.forEach((atom) => {
-    atomsstr += " " + atom;
-  });
+  // let atomsstr = "<br>Found:";
+  // atoms.forEach((atom) => {
+  //   atomsstr += " " + atom;
+  // });
   resultContainer.innerHTML += atomsstr;
 }
 
